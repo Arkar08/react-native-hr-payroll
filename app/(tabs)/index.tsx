@@ -6,6 +6,7 @@ import Entypo from '@expo/vector-icons/Entypo';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import dayjs from 'dayjs';
 import { useEffect,useState } from 'react';
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   const [date, setDate] = useState(dayjs())
@@ -19,11 +20,11 @@ export default function Index() {
   }, []);
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
+    <SafeAreaView style={styles.container}>
+      <View>
         <Header />
       </View>
-      <View style={styles.headerContainer}>
+      <View>
         <View style={styles.clockContainer}>
             <View style={styles.time}>
               <Text style={styles.normalTime}>{dayjs().format("A")}</Text>
@@ -85,7 +86,7 @@ export default function Index() {
             </View>
         </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -94,12 +95,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor:'#625dcf'
   },
-  header:{
-    flex:1
-  },
-  headerContainer:{
-    flex:4
-  },
+  // header:{
+  //   flex:1
+  // },
+  // headerContainer:{
+  //   flex:4
+  // },
   clockContainer:{
     display:'flex',
     justifyContent:'center',

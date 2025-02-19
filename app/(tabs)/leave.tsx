@@ -1,16 +1,17 @@
 import Header from "@/components/Header";
 import { Text, View,StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-     <View style={styles.container}>
+     <SafeAreaView style={styles.container}>
       <View >
         <Header />
       </View>
       <View>
         <Text>Leave</Text>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 

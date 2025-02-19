@@ -1,9 +1,11 @@
 import Header from "@/components/Header";
 import { Text, View,StyleSheet } from "react-native";
 import DataTable from '@/components/DataTable';
+import { SafeAreaView } from "react-native-safe-area-context";
+
 export default function Index() {
   return (
-     <View style={styles.container}>
+     <SafeAreaView style={styles.container}>
       <View >
         <Header />
       </View>
@@ -43,7 +45,7 @@ export default function Index() {
           <DataTable />
         </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
