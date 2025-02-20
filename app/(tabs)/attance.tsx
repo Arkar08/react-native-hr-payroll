@@ -52,7 +52,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor:'#625dcf'
+    backgroundColor:'#0c0161'
   },
   mainContainer:{
     paddingLeft:20,
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop:10,
     width:350,
     height:40,
-    backgroundColor:'#a3a1c7',
+    backgroundColor:'#9c9fa1',
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   month:{
     width:150,
-    backgroundColor:'white',
+    backgroundColor:'whitesmoke',
     display:'flex',
     justifyContent:'space-between',
     alignItems:'center',
@@ -135,8 +135,8 @@ const styles = StyleSheet.create({
   },
   cardBox:{
     width:165,
-    height: 80,
-    backgroundColor: "#a3a1c7",
+    height: 100,
+    backgroundColor: "#9c9fa1",
     borderTopStartRadius:20,
     borderBottomRightRadius:20,
     borderColor: "#fff",

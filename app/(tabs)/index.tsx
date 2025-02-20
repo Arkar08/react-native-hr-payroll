@@ -49,7 +49,7 @@ export default function Index() {
             <View style={styles.box}> 
               <View style={styles.cardBox}>
                 <View style={styles.emojiContainer}>
-                  <FontAwesome5 name="user-check" size={20} color="white" />
+                  <FontAwesome5 name="user-check" size={24} color="white" />
                   <Text style={styles.cardText}>Present</Text>
                 </View>
                 <View style={styles.textCount}>
@@ -58,7 +58,7 @@ export default function Index() {
               </View>
               <View style={styles.cardBox}>
                 <View style={styles.emojiContainer}>
-                  <Entypo name="emoji-sad" size={20} color="white" />
+                  <Entypo name="emoji-sad" size={24} color="white" />
                   <Text style={styles.cardText}>Leave</Text>
                 </View>
                 <View style={styles.textCount}>
@@ -67,7 +67,7 @@ export default function Index() {
               </View>
               <View style={styles.cardBox}>
                 <View style={styles.emojiContainer}>
-                  <MaterialIcons name="request-page" size={20} color="white" />
+                  <MaterialIcons name="request-page" size={24} color="white" />
                   <Text style={styles.cardText}>Request</Text>
                 </View>
                 <View style={styles.textCount}>
@@ -76,7 +76,7 @@ export default function Index() {
               </View>
               <View style={styles.cardBox}>
                 <View style={styles.emojiContainer}>
-                  <MaterialIcons name="payment" size={20} color="white" />
+                  <MaterialIcons name="payment" size={24} color="white" />
                   <Text style={styles.cardText}>Payroll</Text>
                 </View>
                 <View style={styles.textCount}>
@@ -93,7 +93,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor:'#625dcf'
+    backgroundColor:'#0c0161'
   },
   // header:{
   //   flex:1
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     marginTop:10,
     width:350,
     height:40,
-    backgroundColor:'#a3a1c7',
+    backgroundColor:'#9c9fa1',
     display:'flex',
     justifyContent:'center',
     alignItems:'center',
@@ -174,8 +174,8 @@ const styles = StyleSheet.create({
   },
   cardBox:{
     width:165,
-    height: 80,
-    backgroundColor: "#a3a1c7",
+    height: 100,
+    backgroundColor: "#9c9fa1",
     borderTopStartRadius:20,
     borderBottomRightRadius:20,
     borderColor: "#fff",
@@ -186,7 +186,7 @@ const styles = StyleSheet.create({
     padding:10
   },
   cardText:{
-    fontSize:14,
+    fontSize:15,
     fontWeight:400,
     color:'white',
     marginLeft:10
