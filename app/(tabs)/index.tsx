@@ -74,7 +74,7 @@ export default function Index() {
                   <Text>1</Text>
                 </View>
               </View>
-              <View style={styles.cardBox}>
+              <View  style={styles.cardBox}>
                 <View style={styles.emojiContainer}>
                   <MaterialIcons name="payment" size={24} color="white" />
                   <Text style={styles.cardText}>Payroll</Text>
